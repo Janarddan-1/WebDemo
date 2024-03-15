@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(83, 200, 235), white);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+    border: 2px solid #000;
+    width: 300px;
+    height: 250px;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #000;
+    outline: none;
+    padding: 0 10px;
+}
+
+input:last-child{
+    background: rgb(83, 200, 235);
+    color: aliceblue;
+    font-weight: bold;
+}
